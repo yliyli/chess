@@ -13,9 +13,6 @@ using std::pair; using std::make_pair;
 namespace Chess
 {
 
-  /////////////////////////////////////
-  // DO NOT MODIFY THIS FUNCTION!!!! //
-  /////////////////////////////////////
   Board::Board(){}
 
   //destructor 
