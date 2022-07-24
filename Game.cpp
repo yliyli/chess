@@ -12,9 +12,6 @@ using std::make_pair;
 namespace Chess
 {
 
-  /////////////////////////////////////
-  // DO NOT MODIFY THIS FUNCTION!!!! //
-  /////////////////////////////////////
   Game::Game() : is_white_turn(true) {
     // Add the pawns
     for (int i = 0; i < 8; i++) {
@@ -209,9 +206,6 @@ namespace Chess
   }
 
 
-  /////////////////////////////////////
-  // DO NOT MODIFY THIS FUNCTION!!!! //
-  /////////////////////////////////////
   std::ostream& operator<< (std::ostream& os, const Game& game) {
     // Write the board out and then either the character 'w' or the character 'b',
     // depending on whose turn it is
