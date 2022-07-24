@@ -1,0 +1,292 @@
+commit 1c111da670d1485d3783b65ca5ee9e00ba4c4e39
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Fri Apr 30 15:37:24 2021 -0400
+
+    minor printing problem
+
+commit 16b06057983b0d608c48b5a59903f0b66e05fb68
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Fri Apr 30 15:28:26 2021 -0400
+
+    probabl last push?
+
+commit 33783d3b26510db812b7d7bb96d253825cfc9be6
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Fri Apr 30 11:58:31 2021 -0400
+
+    cleaned out commented code
+
+commit 4ccc49bf85d408384da7a009daf9bc59a6f09532
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Fri Apr 30 11:58:00 2021 -0400
+
+    fleshing out README
+
+commit fc80195f8706b1d2fdc78ca57047dfe4320d144f
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Thu Apr 29 21:49:31 2021 -0400
+
+    Added UML
+
+commit 1597e3da59acd96f565898250e8df0bd01a023ff
+Merge: 6e1a9a9 8672716
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Thu Apr 29 21:38:00 2021 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2021-spring-final-ashtark3-rkim62-yli302
+
+commit 6e1a9a9d9a80c967d8cc9462a21df9103aab4bba
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Thu Apr 29 21:37:35 2021 -0400
+
+    Fixed an issue with the istream where the board wouldn't be cleared before loading in the new pieces. Changed board '>>' to a friend function and created a helper function to clear the board in the proper scope. Fixed little logic things and formatting in Game.cpp for the for loops.
+
+commit 86727165f5411828fcc02165a9c09459f1c73f6f
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Thu Apr 29 21:16:32 2021 -0400
+
+    finished cleaning up the layout
+
+commit 12a952c75c5ed28a3abe337324a859a5d3ac8d42
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Thu Apr 29 20:05:36 2021 -0400
+
+    Added a few helper functions for the layout portion
+
+commit 010109beb46a5a0641793f1021719a2eb07d4fe2
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Thu Apr 29 20:05:08 2021 -0400
+
+    Edited layout heavily, broke it down into helper functions
+
+commit e49360b0f4e397185f66d73f80d11b3bc075d29b
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Thu Apr 29 15:28:15 2021 -0400
+
+    started a README file
+
+commit f1794292da3bcafae5e0e17b3d145b85f952e1b0
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Wed Apr 28 12:19:33 2021 -0400
+
+    some fix
+
+commit 9109aff7b1764215df6dfc55f9977598adde191c
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Wed Apr 28 11:41:13 2021 -0400
+
+    debugged a lot
+
+commit 27ae3621e3f5e003f824a5aabaae694bc50b4545
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Wed Apr 28 10:02:16 2021 -0400
+
+    Changed exception in has available
+
+commit 495082e200a2925b676469639e367d6088e1a3d4
+Merge: fad24e3 1e7ee2e
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Wed Apr 28 09:48:03 2021 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2021-spring-final-ashtark3-rkim62-yli302
+
+commit 1e7ee2eec16350d791fb253f85fc55c5aadbe9a1
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Wed Apr 28 09:47:44 2021 -0400
+
+    Display
+
+commit fad24e3e30350b16423beccac61fc8849f7ec901
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Wed Apr 28 09:46:36 2021 -0400
+
+    Fixed moving logic in pawn and changed turns after making move in Game
+
+commit e93dedeacc915f3af7a0bb883615031550f1e076
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Wed Apr 28 09:31:06 2021 -0400
+
+    Maybe works? Display is off. Anton should be defanistration
+
+commit 14d15826df145d417edffdb97765f30a399edcf5
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Wed Apr 28 02:52:38 2021 -0400
+
+    did some debugging
+
+commit c4125c52bf1e0522cd744ed97b7581ee4da1383c
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Tue Apr 27 22:48:29 2021 -0400
+
+    Pawn.cpp should now be finished
+
+commit c5c84f76eafa5ea23bef860ee562cf60576651a0
+Merge: 1b15002 99ad849
+Author: antons20 <77954743+antons20@users.noreply.github.com>
+Date:   Tue Apr 27 22:40:19 2021 -0400
+
+    Merge pull request #1 from jhu-ip/main
+    
+    For Game, implemented in_check, in_mate, in_stalemate, and the >> ope…
+
+commit 99ad849675bd02bf5ce6fc51a3c51e26747b2ff9
+Author: Richard Kim <rkim62@jh.edu>
+Date:   Tue Apr 27 15:55:04 2021 -0400
+
+    For Game, implemented in_check, in_mate, in_stalemate, and the >> operator, as well as a has_available helper function. Changed syntax for any =NULL statements (they should be = nullptr, and the default is to check for them anyways. For Board, I added an istream operator and a quick helper function to check if the char of a piece is valid.
+
+commit 1b150021cca6b6f3f20e5775de2eb94748e2adf4
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 17:38:41 2021 -0400
+
+    started Pawn piece by fleshing out the legal move shape
+
+commit 5d7c520cfbe5a9ddd1228ed1bfdf2eeb6fc74623
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 16:49:46 2021 -0400
+
+    adding the legal capture shape bool
+
+commit 5c4d006d113ef94fc6053035dd6a7d03c20382f6
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 16:45:19 2021 -0400
+
+    tweaking the Rook piece with the namespace function
+
+commit 099ff617b57ddda0e53b4c2d9ca80f1c5c57b105
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 16:44:02 2021 -0400
+
+    fleshing out the Queen piece, with the namespace function
+
+commit 0336523c1122e185334b030d9c7eb74aaf205358
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 16:33:44 2021 -0400
+
+    finalized the Knight piece with the namespace function
+
+commit f1a58a528886442dd1aea12f9a495e85136c3aa7
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 16:31:48 2021 -0400
+
+    finalized the King piece with the namespace function
+
+commit 7a43f12f9bf1aefeb125e4742a51995d9b74f724
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Mon Apr 26 15:50:19 2021 -0400
+
+    edited to add the Namespace functionality
+
+commit 8601555e672d12558a53c929f0e73426f63ab4b5
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Mon Apr 26 06:44:38 2021 -0400
+
+    finished half of Game, with some changes to path_clear function in Board.cpp
+
+commit f6c877f6c530018526b159ea63777057201b3a96
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Mon Apr 26 04:39:55 2021 -0400
+
+    took care for mystery piece clear check
+
+commit 7a34d1b849cec6abb7cc64052aaa9db6d4232671
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Sun Apr 25 09:27:01 2021 -0400
+
+    small debug
+
+commit f777d1732745b4643b9df7560159e8fb990369a0
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sun Apr 25 02:11:08 2021 -0400
+
+    Added void functions for printing tiles and ascii art
+
+commit 55d391075720bfe4a473fe4669e7fbbf67539100
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sun Apr 25 02:10:36 2021 -0400
+
+    Added ASCII art function that displays Blue Jay to the board
+
+commit 567ff3204aa5fa4c3fb6861e22c26d982c4b7e0a
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sun Apr 25 01:55:32 2021 -0400
+
+    implemented print tiles function -- planning to work on ASCIIart for Blue Jay
+
+commit bd59d43ee4b2053f23830fc4f7f05c9395760aab
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 23:35:36 2021 -0400
+
+    worked on displaying the Hopkins motto below the tiles
+
+commit 775f21942e0d2f510201830e951c78ef37d34ec2
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 23:02:14 2021 -0400
+
+    started working on displaying the board
+
+commit 550d4f4c0f5e07f10ae730e790144bfd7297f9f9
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 21:35:27 2021 -0400
+
+    finished Rook.cpp file
+
+commit 83b9b3a2b4d196d1837c65cc25dc2965903bcfd0
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 21:27:23 2021 -0400
+
+    working on the Queen.cpp file
+
+commit 2853c8b42b27349c91759953c14e97865ba91b12
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 21:24:34 2021 -0400
+
+    finished the Knight.cpp file
+
+commit 5a27dd8158c5aca26b0c70153d91da31879766f5
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 20:47:27 2021 -0400
+
+    finished King piece implementation
+
+commit 2dbc0d8dea1ffb5da843c28de74418ab6f158a58
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 14:33:40 2021 -0400
+
+    created a King.cpp file -- ready to implement from King.h
+
+commit cd60d7272a0db5cea8e1b956f85aae7f312a4a48
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 14:29:01 2021 -0400
+
+    finished the Bishop.cpp file -- might return to clean up the code
+
+commit 0c2c815ce4cd7d090314d9c64238901f86b7126e
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 14:28:25 2021 -0400
+
+    edited the Bishop.h file
+
+commit 2b3824b20c755e41ffb280df6241800476e7e7ea
+Author: Anton Shtarkman <ashtark3@jhu.edu>
+Date:   Sat Apr 24 13:44:34 2021 -0400
+
+    created a Bishop.cpp file - starting to implement from Bishop.h
+
+commit 832dc7805d9e7b4666f7fe48202679e5d7905d4d
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Sat Apr 24 08:28:25 2021 -0400
+
+    added some helper functions.
+
+commit 5c9fe6616da2b20f7796a1bfe339b9e4ed445a61
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Sat Apr 24 04:12:29 2021 -0400
+
+    Board functions implemented except for display
+
+commit 43443ea6165b85a4ffd8ea7f36a4a8ba98fb7260
+Author: 601.220 Spring 21 JS <ips21072@ugradx.cs.jhu.edu>
+Date:   Thu Apr 22 22:46:11 2021 -0400
+
+    initialized project
