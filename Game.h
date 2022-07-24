@@ -18,15 +18,9 @@ namespace Chess
 
     Game(const Game& game);
     // Returns a constant reference to the board
-    /////////////////////////////////////
-    // DO NOT MODIFY THIS FUNCTION!!!! //
-    /////////////////////////////////////
     const Board& get_board() const { return board; }
 
     // Returns true if it is white's turn
-    /////////////////////////////////////
-    // DO NOT MODIFY THIS FUNCTION!!!! //
-    /////////////////////////////////////
     bool turn_white() const { return is_white_turn; }
 
     // Attemps to make a move. If successful, the move is made and
