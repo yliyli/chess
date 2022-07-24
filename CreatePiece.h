@@ -1,6 +1,3 @@
-/////////////////////////////////
-// DO NOT MODIFY THIS FILE!!!! //
-/////////////////////////////////
 #ifndef CREATE_PIECE_H
 #define CREATE_PIECE_H
 
