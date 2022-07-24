@@ -1,6 +1,3 @@
-/////////////////////////////////
-// DO NOT MODIFY THIS FILE!!!! //
-/////////////////////////////////
 #include "CreatePiece.h"
 #include "Pawn.h"
 #include "Rook.h"
