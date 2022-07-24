@@ -1,7 +1,3 @@
-///////////////////////////////////////////
-// Modify this file only where indicated //
-//      (look for the TODO comment)      //
-///////////////////////////////////////////
 #include <fstream>
 #include <iostream>
 #include <string>
